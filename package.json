@@ -1,0 +1,9 @@
+{
+  "name": "auth0-exploration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/avilabiel/auth0-exploration.git",
+  "author": "Gabriel Ávila <avilabiel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
