@@ -64,4 +64,11 @@ It's the fastest way to provide a Custom Layout in a system that already works w
 To test you can go with the following files on `index.tsx`:
 
 - `AppWithRedirect.tsx`: To test with @auth0/auth0-react
-- ``:
+- `AppWithAPI.tsx`: To test with their endpoints
+- `AppWithSDK.tsx`: To test using their SDK
+
+## Conclusion
+
+All of 3 ways provide a good interface to create custom login pages. It's totally possible to have a totally changed UI, but the easiest one to achieve in a project using `auth0-react` is the Custom Login Form. We can edit HTML + CSS + Vanilla JS + Auth SDK. Also, in the React app we can use the `Auth0Provider` and its hooks to get client's information.
+
+![Example](custom-login-form.png)
